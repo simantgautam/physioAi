@@ -11,7 +11,6 @@ function LoginPage() {
   const [loggedIn, setLoggedIn] = useState(false);
 
   const handleLogin = async () => {
-    localStorage.setItem("isLoggedIn", true.toString());
     navigate("/");
     setLoggedIn(true);
     try {
